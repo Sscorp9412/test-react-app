@@ -45,7 +45,7 @@ render() {
     }
 
     setRandomValue(){
-        return Math.ceil(Math.random()*10);
+        return Math.ceil(Math.random()*100);
     }
 
     matchAnswer=(event)=>{
